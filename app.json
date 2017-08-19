@@ -1,0 +1,14 @@
+{
+  "name": "Ember Test App",
+  "description": "Ember Test App",
+  "env": {
+    "EMBER_ENV": "production",
+    "NODE_ENV": "production",
+    "NPM_CONFIG_PRODUCTION": "false"
+  },
+  "buildpacks": [
+    { "url": "https://github.com/heroku/heroku-buildpack-nodejs" },
+    { "url": "https://github.com/heroku/heroku-buildpack-ember-cli" },
+    { "url": "https://github.com/heroku/heroku-buildpack-static" }
+  ]
+}
