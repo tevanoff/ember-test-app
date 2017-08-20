@@ -1,6 +1,9 @@
 {
   "name": "Ember Test App",
   "description": "Ember Test App",
+  "scripts": {
+    "postdeploy":"gem install bundler && scripts/pr-postdeploy"
+  },
   "env": {
     "EMBER_ENV": "production",
     "NODE_ENV": "production",
